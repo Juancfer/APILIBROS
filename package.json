@@ -1,0 +1,26 @@
+{
+  "name": "api-libros",
+  "version": "1.0.0",
+  "description": "API Libros en Mongoo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed:book": "node ./seeds/book.seed.js",
+    "start": "node --watch index.js"
+  },
+  "author": "Juan Carlos Fernandez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.0"
+  }
+}
